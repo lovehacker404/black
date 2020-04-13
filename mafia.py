@@ -319,9 +319,9 @@ def pilih_super():
 			jalan('\033[1;94mPlease Wait\033[1;94m...')
 			titik = ['.   ','..  ','... ']
 			for o in titik:
-			print("\r\033[1;94mCloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
-			print "\n\033[1;97m«--•◈••◈•---\x1b[1;94m•◈•Stop Process Press CTRL+Z•◈•\033[1;97m---•◈••◈•-»"
-			print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+			print  ("\r\033[1;94mCloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+			print   "\n\033[1;97m«--•◈••◈•---\x1b[1;94m•◈•Stop Process Press CTRL+Z•◈•\033[1;97m---•◈••◈•-»"
+			print   "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 			jalan(' \033[1;97m.................\033[1;94mCloning Start..\033[1;97m............ ')
 			print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	def main(arg):
