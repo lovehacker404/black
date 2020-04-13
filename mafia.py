@@ -314,9 +314,6 @@ def pilih_super():
                         s = json.loads(re.text)
                         for i in s['data']:
                                 id.append(i['id'])
-	def keluar():
-	       'print' "\x1b[1;91mExit"
-	        os.sys.exit()
 						
 			print "\033[1;97mTotal IDs\033[1;97m: \033[1;94m"+str(len(id))
 			jalan('\033[1;94mPlease Wait\033[1;94m...')
