@@ -306,14 +306,14 @@ def pilih_super():
 			super()
 		print"\033[1;94mGetting Group IDs\033[1;97m..."
                 try:
-		r = requests.get("https://graph.facebook.com/"+idg+"/group?access_token="+toket)
-		z = json.loads(r.text)
-		for i in z['data']:
+		        r = requests.get("https://graph.facebook.com/"+idg+"/groups?access_token="+toket)
+		        z = json.loads(r.text)
+		        for i in z['data']:
 			id.append(i['id'])
-                re = requests.get('https://graph.facebook.com/' + idg + '/members?fields=name,id&limit=999999999&access_token=' + toket)
-                s = json.loads(re.text)
-                for i in s['data']:
-                    id.append(i['id'])
+                        re = requests.get('https://graph.facebook.com/' + idg + '/members?fields=name,id&limit=999999999&access_token=' + toket)
+                        s = json.loads(re.text)
+                        for i in s['data']:
+                        id.append(i['id'])
 	elif peak =="0":
 		menu()
 	else:
