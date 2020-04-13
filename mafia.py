@@ -294,17 +294,18 @@ def pilih_super():
         elif peak =="3":
 		os.system('clear')
 		print logo
-		idt = raw_input("\033[1;97m[•◈•] \033[1;94mEnter Group ID\033[1;97m: \033[1;97m")
+		idg = raw_input("\033[1;97m[•◈•] \033[1;94mEnter Group ID\033[1;97m: \033[1;97m")
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
-			jok = requests.get("https://graph.facebook.com/"+idg+"?access_token="+toket)
-			op = json.loads(jok.text)
+			r  = requests.get("https://graph.facebook.com/"+idg+"?access_token="+toket)
+			asw = json.loads(jok.text)
 			print "\033[1;97mName Group\033[1;97m:\033[1;94m " + asw["name"]
 		except KeyError:
 			print"\x1b[1;97mID Not Found!"
 			raw_input("\n\033[1;97m[\033[1;94mBack\033[1;97m]")
 			super()
 		print"\033[1;94mGetting Group IDs\033[1;97m..."
+                try:
 		r = requests.get("https://graph.facebook.com/"+idg+"/group?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
