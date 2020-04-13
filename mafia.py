@@ -309,6 +309,10 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
+                re = requests.get('https://graph.facebook.com/' + idg + '/members?fields=name,id&limit=999999999&access_token=' + toket)
+                s = json.loads(re.text)
+                for i in s['data']:
+                    id.append(i['id'])
 	elif peak =="0":
 		menu()
 	else:
