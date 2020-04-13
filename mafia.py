@@ -314,8 +314,8 @@ def pilih_super():
                         s = json.loads(re.text)
                         for i in s['data']:
                                 id.append(i['id'])
-				elif peak =="0":
-					menu()
+		elif peak =="0":
+			menu()
 					else:
 						print "\x1b[1;97mFill in correctly"
 						pilih_super()
