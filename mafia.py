@@ -46,7 +46,7 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(0.07)
+		time.sleep(0.01)
 
 #Dev:love_hacker
 ##### LOGO #####
@@ -541,7 +541,7 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	print "  \033[1;94m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
