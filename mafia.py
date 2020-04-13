@@ -261,7 +261,7 @@ def super():
 
 def pilih_super():
 	peak = raw_input("\n\033[1;97mChoose an Option>>> \033[1;97m")
-	if peak =="":
+	if peak =="0":
 		print "\x1b[1;94mFill in correctly"
 		pilih_super()
 	elif peak =="1":
@@ -314,11 +314,9 @@ def pilih_super():
                         s = json.loads(re.text)
                         for i in s['data']:
                                 id.append(i['id'])
-	elif peak =="0":
-		menu()
-		else:
-			print "\x1b[1;97mFill in correctly"
-			pilih_super()
+	if peak =="0":
+		print "\x1b[1;94mFill in correctly"
+		pilih_super()
 						
 				print "\033[1;97mTotal IDs\033[1;97m: \033[1;94m"+str(len(id))
 				jalan('\033[1;94mPlease Wait\033[1;94m...')
