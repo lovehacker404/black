@@ -324,9 +324,9 @@ def pilih_super():
 			print   "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 			jalan(' \033[1;97m.................\033[1;94mCloning Start..\033[1;97m............ ')
 			print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mBlackMafia\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	def main(arg):
-		global oks
-		user = arg
+		def main(arg):
+			global oks
+			user = arg
 		try:
 			os.mkdir('out')
 		except OSError:
